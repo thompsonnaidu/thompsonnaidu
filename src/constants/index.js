@@ -31,13 +31,25 @@ import {
       title: "About",
     },
     {
+      id: "experience",
+      title: "Experience",
+    },
+    {
       id: "work",
-      title: "Work",
+      title: "Project",
+    },
+    {
+      id: "tech",
+      title: "Skills",
+    },
+    {
+      id:"testimonial",
+      title:"Testimonial"
     },
     {
       id: "contact",
       title: "Contact",
-    },
+    },  
   ];
   
   const services = [
