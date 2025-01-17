@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    quantiphi,
+    travelex,
+    tiaa,
     carrent,
     jobit,
     tripguide,
     threejs,
+    state
   } from "../assets";
   
   export const navLinks = [
@@ -54,19 +54,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "4+ Years of SDE Industry Experience",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Agile",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Fullstack Developer",
       icon: creator,
     },
   ];
@@ -128,83 +128,81 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer Co-op",
+      company_name: "State Street",
+      icon: state,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2024 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built gRPC services in an investment management system using Java and Spring Boot, enhancing service communication speed by 40&#37; and improving performance reliability",
+        "Elevated code reliability by increasing unit test coverage by 10&#37; using JUnit and Mockito, collaborating closely with the team to enhance maintainability through rigorous testing practices and effective mocking strategies",
+        "Managed on back-patching of the application with the latest code using Perforce, coordinating with teams to ensure smooth integration of updates while maintaining clear communication to address challenges and ensure timely deployment",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+    },{
+      title: "Senior Software Developer",
+      company_name: "Quanitphi",
+      icon: quantiphi,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "October 2020 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Architected cloud-native web app using Spring Boot, React, Redis Cache, and AWS services, transforming vendor management processes and reducing task completion time by 30&#37; through strategic automation",
+        "Engineered a seamless CI/CD pipeline using Elastic Beanstalk, CloudFormation, and GitLab, which resulted in flawless application deployment on AWS and achieved an 80&#37; reduction in deployment time",
+        "Streamlined ADFS (Active Directory Federation Services) login integration with AWS Cognito, Lambda functions, and AWS SNS, which ensured seamless and secure access for 45k users and led to a 10&#37; reduction in login time",
+        "Mentored new team members by conducting detailed code walkthroughs, knowledge transfer sessions, and workshops, enhancing team collaboration and effectively communicating complex concepts for smoother onboarding and skill development",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Analyst, Software Developer",
+      company_name: "Travelex",
+      icon: travelex,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2020 - October 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Orchestrated the AWS migration from monolithic to microservices architecture by leveraging Docker containerization for scalability and achieving 25&#37; reduction in response latency",
+        "Engaged in Agile Scrum environment, optimized business workflow resulting in a 20&#37; increase in efficiency, and built more than 10 REST APIs using Node Js, TypeScript, and AWS DynamoDb",
       ],
     },
+    {
+      title: "Software Engineer",
+      company_name: "TIAA GBS",
+      icon: tiaa,
+      iconBg: "#383E56",
+      date: "July 2018 - June 2020",
+      points: [
+        "Crafted a <strong>Java-Spring MVC </strong> web app enabling TIAA advisors to create customized investment plans, leading to 10&#37; efficiency gain and heightened customer satisfaction",
+        "Programmed the implementation of a Kafka-driven payment processing system for real-time transactions, fraud detection, and notifications, resulting in a notable 25&#37; reduction in payment processing time",
+        "Resolved multiple high-priority Production issues, provided support in Production releases and delivered root causes through level 3 Incident Management, Service Requests, Change Management, and Jira stories",
+        "Designed and executed automated testing processes, achieving a robust code coverage of 85&#37; and consistently reducing regression defects by 30&#37; in each release cycle",
+      ],
+    },
+    
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      testimonial:`I was particularly impressed by Thompson's ability to handle even the toughest clients—effortlessly. His communication and software development skills are above par. He is a cloud tech enthusiastic individual and also the best solution provider for all the major technologies. His Full-stack development and business understanding skillsets are awesome which always helps the team to achieve the difficult task with ease. He is a quick learner which makes him an appreciated member of any team.As a team member or a leader, Thompson earns my highest recommendation.`,
+      name: "Kush Hingol",
+      designation: "Senior Software",
+      company: "Weave HQ",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
+      url:"https://www.linkedin.com/in/kush-h-028103173"
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      testimonial:`It was fantastic to work with Thompson, who is an exceptional blend of a Manager and Software Developer. He is not only a reliable and visionary leader, but also an inspiring team player.From scrum meetings to brainstorming on potential ideas, he got everything covered to ensure a clarity on the feature. Apart from that, his inputs on certain features have also proved to be valuable on the project.I rarely come across real talents who stand out like Thompson`,
+      name: "Caje Rodrigues",
+      designation: "Software Engineer",
+      company: "Apple",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
+      url:"https://www.linkedin.com/in/rodriguescajetan"
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Thompson is one of the smartest, hardworking and sincere people I have had the pleasure of working with. He will go to great lengths to get the job done. Thompson is a worthy addition to any team.",
+      name: "Ashish D'sa",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "Arbor",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
+      url:"https://www.linkedin.com/in/ashish-dsa"
     },
   ];
   
@@ -274,4 +272,60 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const skillsets=[
+    {
+      title: "Programming Languages",
+      names: ["Java", "JavaScript", "Typescript", "Python"],
+    },
+    {
+      title: "Backend Frameworks",
+      names: [
+        "Spring Boot",
+        "Spring JPA",
+        "Spring Hibernate",
+        "Spring MVC",
+        "Node Js",
+        "Express JS",
+        "GrpahQL",
+        "HandleBars",
+        "RESTful APIs",
+        "Microservices",
+        "Serverless Architecture",
+        "Grpc"
+      ],
+    },
+    {
+      title: "Frontend Frameworks",
+      names: [
+        "React JS",
+        "Redux",
+        "React saga",
+        "Next JS",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Tailwind",
+      ],
+    },
+    {
+      title: "Databases",
+      names: ["MySql", "Aurora DB", "Postgres", "MongoDB", "DynamoDB"],
+    },
+    {
+      title: "Devops Tools",
+      names: [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Git",
+        "Github",
+        "Gitlab",
+        "NPM",
+      ],
+    },
+    {
+      title: "Cloud Platforms",
+      names: ["AWS", "Google Cloud"],
+    },
+  ]
+  export { services, technologies,skillsets, experiences, testimonials, projects };

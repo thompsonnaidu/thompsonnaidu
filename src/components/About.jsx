@@ -32,8 +32,10 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam reiciendis ullam voluptatum magni praesentium, amet aut, fugit voluptates voluptate officiis recusandae nobis consequatur non maiores unde! Et, animi eaque.
-      </motion.p>
+      Software Engineer with 4+ years of experience solving complex technical challenges and delivering efficient solutions. Skilled in designing
+microservices using Java, Spring Boot, and React to enhance system performance and business processes. Proficient in cloud technologies,
+distributed systems, and full-stack development, with a focus on fintech software and enterprise solution
+       </motion.p>
 
       <div className='mt-20 gap-10 flex flex-wrap'>
         {services.map((service,index)=>(

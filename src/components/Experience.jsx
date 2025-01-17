@@ -19,7 +19,7 @@ const ExperienceCard = ({experience})=>{
       <div className="flex justify-center items-center w-full h-full">
         <img src={experience.icon}
         alt={experience.company_name}
-        className='w-[60%] h-[60%] object-contain'
+        className='rounded-full object-contain'
         />
       </div>
     }
@@ -36,9 +36,7 @@ const ExperienceCard = ({experience})=>{
         <li 
         key={`experience-point-${index}`}
         className="text-white-100 text-[14px] pl-1 tracking-wider"
-        >
-          {point}
-        </li>))}
+        dangerouslySetInnerHTML= {{__html:point}}/>))}
     </ul>
   </VerticalTimelineElement>
 }
