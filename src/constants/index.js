@@ -58,7 +58,7 @@ import {
       icon: web,
     },
     {
-      title: "Agile",
+      title: "Certifed AWS Developer Associate",
       icon: mobile,
     },
     {
@@ -133,11 +133,14 @@ import {
       icon: state,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - June 2024",
-      points: [
-        "Built gRPC services in an investment management system using Java and Spring Boot, enhancing service communication speed by 40&#37; and improving performance reliability",
-        "Elevated code reliability by increasing unit test coverage by 10&#37; using JUnit and Mockito, collaborating closely with the team to enhance maintainability through rigorous testing practices and effective mocking strategies",
-        "Managed on back-patching of the application with the latest code using Perforce, coordinating with teams to ensure smooth integration of updates while maintaining clear communication to address challenges and ensure timely deployment",
-      ],
+      points:[
+        "Architected and deployed scalable microservices using Spring Boot and gRPC, delivering seamless cross-service communication amplifying performance for high-demand financial applications",
+        "Optimized transactional integrity and database performance with Spring Hibernate and JPA, eliminating data inconsistencies and reducing query times in high-traffic financial systems",
+        "Elevated code reliability and raised test coverage by 10% through TDD methodologies (JUnit, Mockito), ensuring predictable behavior and swift defect resolution",
+        "Developed multi-threaded backend systems employing the Executor Framework to minimize latency for concurrent financial data requests, enhancing real-time insights",
+        "Revamped deployment pipelines with Docker containerization, Kubernetes orchestration, and GitHub Actions-based CI/CD, accelerating release cycles and boosting system reliability",
+        "Built low-latency data pipelines with Apache Kafka, improving data flow reliability, throughput, and overall system performance"
+    ],
     },{
       title: "Senior Software Developer",
       company_name: "Quanitphi",
@@ -145,11 +148,15 @@ import {
       iconBg: "#383E56",
       date: "October 2020 - September 2022",
       points: [
-        "Architected cloud-native web app using Spring Boot, React, Redis Cache, and AWS services, transforming vendor management processes and reducing task completion time by 30&#37; through strategic automation",
-        "Engineered a seamless CI/CD pipeline using Elastic Beanstalk, CloudFormation, and GitLab, which resulted in flawless application deployment on AWS and achieved an 80&#37; reduction in deployment time",
-        "Streamlined ADFS (Active Directory Federation Services) login integration with AWS Cognito, Lambda functions, and AWS SNS, which ensured seamless and secure access for 45k users and led to a 10&#37; reduction in login time",
-        "Mentored new team members by conducting detailed code walkthroughs, knowledge transfer sessions, and workshops, enhancing team collaboration and effectively communicating complex concepts for smoother onboarding and skill development",
-      ],
+        "Architected a scalable vendor onboarding portal using Spring Boot, Spring JPA, Spring Security, React.js, TypeScript, and Redux, enabling secure and efficient vendor workflows",
+        "Applied robust threading techniques to manage asynchronous tasks, including document verification, validations, and notifications, without impacting main throughput, ensuring high system performance and responsiveness.",
+        "Expanded real-time ingestion for 1.8 million vehicles, delivering rapid event detection and actionable insights via Python microservices on Kinesis",
+        "Integrated Redis Cache to minimize response times, enabling rapid lookups and smoothing peak-load performance",
+        "Configured Aurora DB for high availability, low latency, ACID compliance, and real-time distributed updates",
+        "Created an event-driven pipeline for IoT vehicle data, detecting speeding, seatbelt violations, and harsh braking via AWS Lambda, SQS, and Kinesis",
+        "Accelerated geospatial data handling by partitioning 5,000+ OpenStreetMaps chunks in S3 and leveraging Athena queries, cutting processing times by 40%",
+        "Devised comprehensive safety analytics to identify risky driving behaviors, utilizing telematics and fuel data correlation to reduce fleet incidents by 30%"
+    ],
     },
     {
       title: "Analyst, Software Developer",
@@ -158,9 +165,12 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2020 - October 2020",
       points: [
-        "Orchestrated the AWS migration from monolithic to microservices architecture by leveraging Docker containerization for scalability and achieving 25&#37; reduction in response latency",
-        "Engaged in Agile Scrum environment, optimized business workflow resulting in a 20&#37; increase in efficiency, and built more than 10 REST APIs using Node Js, TypeScript, and AWS DynamoDb",
-      ],
+        "Engineered a unified middleware platform utilizing Node.js, TypeScript, Express, and gRPC, facilitating seamless real-time communication between 8+ backend systems and reducing integration time by 40%",
+        "Implemented an event-driven architecture with AWS Kinesis and Amazon SNS, enabling the processing of over 10,000 transactions per minute and decreasing data latency by 30%",
+        "Established comprehensive unit testing frameworks with Mocha, Jasmine, Chai, and Sinon, increasing code reliability and reducing bugs in production by 20%",
+        "Automated CI/CD pipelines using CircleCI and AWS SAM (Serverless Application Model), accelerating deployment cycles by 50% and ensuring consistent, error-free releases",
+        "Strengthened data persistence by integrating Amazon DynamoDB, achieving 99.99% uptime and enabling low-latency access for high-demand applications, ensuring system reliability and performance"
+    ],
     },
     {
       title: "Software Engineer",
@@ -169,11 +179,16 @@ import {
       iconBg: "#383E56",
       date: "July 2018 - June 2020",
       points: [
-        "Crafted a <strong>Java-Spring MVC </strong> web app enabling TIAA advisors to create customized investment plans, leading to 10&#37; efficiency gain and heightened customer satisfaction",
-        "Programmed the implementation of a Kafka-driven payment processing system for real-time transactions, fraud detection, and notifications, resulting in a notable 25&#37; reduction in payment processing time",
-        "Resolved multiple high-priority Production issues, provided support in Production releases and delivered root causes through level 3 Incident Management, Service Requests, Change Management, and Jira stories",
-        "Designed and executed automated testing processes, achieving a robust code coverage of 85&#37; and consistently reducing regression defects by 30&#37; in each release cycle",
-      ],
+        "Developed a robust wealth management portal using Spring Boot, Spring MVC, Spring JPA, Spring Security, and Angular, enabling financial advisors to efficiently manage customer financial data and create customized investment plans",
+        "Utilized Java multithreading with the Executor Framework to fetch and aggregate information from multiple SQL procedures and third-party APIs, enhancing data processing efficiency by 35%",
+        "Designed and implemented Splunk dashboards to monitor and analyze API performance in production, identifying high-latency and error-prone APIs, which led to targeted optimizations and a 20% reduction in error rates",
+        "Containerized microservices and web applications using Docker as part of the cloud transformation initiative, ensuring consistent deployment across environments and facilitating scalable application growth.",
+        "Built and maintained CI/CD pipelines with Jenkins and SonarQube, automating the build, test, and deployment processes, resulting in a 40% acceleration of deployment cycles and enhanced release reliability",
+        "Created a Proof of Concept (POC) for Blue-Green deployment strategies using Kubernetes, enabling seamless, zero-downtime deployments and improving system availability by 25%",
+        "Provided comprehensive production support and assisted in quarterly application releases, ensuring smooth deployments and minimizing downtime during release cycles",
+        "Worked with Agile teams using JIRA to streamline sprint planning and improve project delivery",
+        "Mentored four interns, offering guidance on backend development and DevOps practices, fostering their professional growth and integrating them effectively into the team"
+    ],
     },
     
   ];

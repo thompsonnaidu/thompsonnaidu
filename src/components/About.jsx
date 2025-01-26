@@ -32,9 +32,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Software Engineer with 4+ years of experience solving complex technical challenges and delivering efficient solutions. Skilled in designing
-microservices using Java, Spring Boot, and React to enhance system performance and business processes. Proficient in cloud technologies,
-distributed systems, and full-stack development, with a focus on fintech software and enterprise solution
+      Accomplished Software Engineer with 4+ years of experience designing, developing, and optimizing high-performance applications across industries such as finance and technology. Expertise in architecting scalable microservices, enhancing database performance, and utilizing advanced technologies including Java, Spring Boot, Spring JPA, gRPC, Apache Kafka, Kubernetes, React, Python, and Django. Proficient in multi-threading, event-driven architectures, and leveraging cloud platforms like AWS to drive system reliability and performance. Strong command of system design, CI/CD pipelines, containerization, and improving software quality through test-driven development
        </motion.p>
 
       <div className='mt-20 gap-10 flex flex-wrap'>
