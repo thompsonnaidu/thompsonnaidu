@@ -33,8 +33,21 @@ const About = () => {
 
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
       Accomplished Software Engineer with 4+ years of experience designing, developing, and optimizing high-performance applications across industries such as finance and technology. Expertise in architecting scalable microservices, enhancing database performance, and utilizing advanced technologies including Java, Spring Boot, Spring JPA, gRPC, Apache Kafka, Kubernetes, React, Python, and Django. Proficient in multi-threading, event-driven architectures, and leveraging cloud platforms like AWS to drive system reliability and performance. Strong command of system design, CI/CD pipelines, containerization, and improving software quality through test-driven development
+      
        </motion.p>
-
+      <motion.p variants={fadeIn("","",0.1,1)} >
+      <div className="mt-5 cursor-pointer" onClick={()=> window.open("/resume/thompson_resume.pdf", "_blank", "noopener,noreferrer")}>
+            <a
+              href="/resume/thompson_resume.pdf"
+              download="thompson_resume.pdf"
+              className="px-6 py-3 cursor-pointer  bg-tertiary border border-white-600 text-white font-semibold rounded-md shadow hover:border-tertiary hover:bg-tertiary transition-colors duration-300"
+              style={{ animation: "bounce 1s infinite" }}
+            >
+              Download Resume
+            </a>
+          </div>
+      </motion.p>
+  
       <div className='mt-20 gap-10 flex flex-wrap'>
         {services.map((service,index)=>(
           <ServiceCard key={service.title} index={index} {...service}/>
