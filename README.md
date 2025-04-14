@@ -49,7 +49,7 @@ I’m a <strong>Full-Stack Software Engineer</strong> focused on creating cuttin
 - **Email:** [thompson.naidu@gmail.com](mailto:thompson.naidu@gmail.com)
 - **LinkedIn:** [linkedin.com/in/thompsonnaidu](https://linkedin.com/in/thompsonnaidu)
 - **GitHub:** [github.com/thompsonnaidu](https://github.com/thompsonnaidu)
-- **Portfolio:** [thompsonnaidu.github.io](https://thompsonnaidu.github.io)
+- **Portfolio:** [thompsonnaidu.github.io/thompsonnaidu](https://thompsonnaidu.github.io/thompsonnaidu/)
 
 I’m always excited to hear about new ideas, potential collaborations, or just talk tech. Feel free to reach out!
 
